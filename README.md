@@ -1,16 +1,16 @@
 # 💦 Liquid Glass Icons
 
-Beautiful React icons with multi-layered gradients and transparency effects that create a stunning glass-like appearance.
+Beautiful React icon library with multi-layered gradients and transparency effects that create a stunning glass-like appearance.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## ✨ Features
 
-- **100 unique icons** in Liquid Glass style
+- **100 unique React components** in Liquid Glass style
 - **Multi-layered structure** with gradients and transparency
 - **Easy recoloring** - just change the CSS color property
 - **TypeScript support** out of the box
-- **Optimized SVGs** with preserved glass effect
+- **Optimized React components** with preserved glass effect
 - **Tree-shakable** - import only what you need
 
 ## 📦 Getting Started
@@ -22,9 +22,7 @@ This icon library is currently available as a GitHub repository. You can:
    git clone https://github.com/icons8/liquid-glass-icons.git
    ```
 
-2. **Use individual SVG files** from the `/SVG` directory
-
-3. **Use React components** from the `/icons` directory
+2. **Use React components** from the `/icons` directory
 
 ## 🚀 Usage
 
@@ -47,10 +45,6 @@ function App() {
   );
 }
 ```
-
-### Using SVG Files
-
-You can also use the SVG files directly from the `/SVG` directory in your HTML or CSS.
 
 ## 🎨 What is Liquid Glass?
 
@@ -191,12 +185,6 @@ Plus all standard SVG props.
 - LgUser
 - LgUserFemale
 - LgUserMale
-- LgVisible
-- LgWhatsapp
-- LgYoutubePlay
-- LgUserFemale
-- LgUserMale
-- LgUser
 - LgVisible
 - LgWhatsapp
 - LgYoutubePlay
