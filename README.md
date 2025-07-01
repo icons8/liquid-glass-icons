@@ -2,7 +2,6 @@
 
 Beautiful React icons with multi-layered gradients and transparency effects that create a stunning glass-like appearance.
 
-[![npm version](https://badge.fury.io/js/%40icons8%2Fliquid-glass-icons.svg)](https://www.npmjs.com/package/@icons8/liquid-glass-icons)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## ✨ Features
@@ -14,26 +13,29 @@ Beautiful React icons with multi-layered gradients and transparency effects that
 - **Optimized SVGs** with preserved glass effect
 - **Tree-shakable** - import only what you need
 
-## 📦 Installation
+## 📦 Getting Started
 
-```bash
-npm install @icons8/liquid-glass-icons
-```
+This icon library is currently available as a GitHub repository. You can:
 
-```bash
-yarn add @icons8/liquid-glass-icons
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/icons8/liquid-glass-icons.git
+   ```
 
-```bash
-pnpm add @icons8/liquid-glass-icons
-```
+2. **Use individual SVG files** from the `/SVG` directory
+
+3. **Use React components** from the `/icons` directory
 
 ## 🚀 Usage
 
-### Import individual icons
+### Using React Components
+
+Copy the desired icon components from the `/icons` directory to your project:
 
 ```tsx
-import { LgHome, LgUser, LgSettings } from '@icons8/liquid-glass-icons';
+import LgHome from './icons/home';
+import LgUser from './icons/user';
+import LgSettings from './icons/settings';
 
 function App() {
   return (
@@ -46,21 +48,9 @@ function App() {
 }
 ```
 
-### Import all icons
+### Using SVG Files
 
-```tsx
-import * as LiquidGlassIcons from '@icons8/liquid-glass-icons';
-
-function IconGallery() {
-  return (
-    <div>
-      <LiquidGlassIcons.LgHome size={32} />
-      <LiquidGlassIcons.LgUser size={32} />
-      <LiquidGlassIcons.LgSettings size={32} />
-    </div>
-  );
-}
-```
+You can also use the SVG files directly from the `/SVG` directory in your HTML or CSS.
 
 ## 🎨 What is Liquid Glass?
 
@@ -217,10 +207,6 @@ Plus all standard SVG props.
 
 Check out the [live demo](https://icons8.github.io/liquid-glass-icons) to see all icons in action.
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
 ## 📄 License
 
 MIT © [Icons8](https://icons8.com)
@@ -229,7 +215,7 @@ MIT © [Icons8](https://icons8.com)
 
 - [Icons8 Website](https://icons8.com)
 - [Report Issues](https://github.com/icons8/liquid-glass-icons/issues)
-- [NPM Package](https://www.npmjs.com/package/@icons8/liquid-glass-icons)
+- [GitHub Repository](https://github.com/icons8/liquid-glass-icons)
 
 ---
 
