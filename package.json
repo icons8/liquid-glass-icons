@@ -1,0 +1,52 @@
+{
+  "name": "@icons8/liquid-glass-icons",
+  "version": "1.0.0",
+  "description": "Beautiful Liquid Glass style React icons with multi-layered gradients and transparency effects",
+  "main": "dist/icons/index.js",
+  "types": "dist/icons/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "svg",
+    "liquid-glass",
+    "glass-effect",
+    "gradient",
+    "transparency",
+    "ui",
+    "components",
+    "icons8"
+  ],
+  "author": "Icons8 <support@icons8.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icons8/liquid-glass-icons.git"
+  },
+  "homepage": "https://github.com/icons8/liquid-glass-icons#readme",
+  "bugs": {
+    "url": "https://github.com/icons8/liquid-glass-icons/issues"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/svgo": "^2.6.4",
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@types/node": "^20.11.19",
+    "svgo": "^3.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
